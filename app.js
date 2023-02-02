@@ -1,5 +1,1 @@
-let a=5;
-let b=5;
-let c=a*5;
-
-document.write(c);
+let cars=[1,2,3,4,56,67,7,8,6,5,4,6,67,3,5,]
