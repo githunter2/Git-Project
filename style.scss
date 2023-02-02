@@ -1,0 +1,54 @@
+$arkaplan: #ddd;
+$genis: 100%;
+$uzun: 60px;
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#header {
+    width: $genis;
+    height: 100vh;
+
+    background: {
+
+        image: url(./img/Anonymous1.jpg);
+        size: cover;
+        repeat: no-repeat;
+        position: center;
+
+    }
+
+    ;
+
+    .navbar {
+        width: $genis;
+        height: $uzun;
+        background-color: $arkaplan;
+
+
+        .ul {
+            width: $genis;
+            height: $uzun;
+            color: black;
+            list-style-type: none;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            li {
+                margin-right: 20px;
+
+                font: {
+                    size: 20px;
+                    weight: bolder;
+                    style: italic;
+                }
+
+            }
+        }
+    }
+}
