@@ -1,3 +1,3 @@
-#First Git Deploy Project
+# First Git Deploy Project
 
-##Bunlarin hamisi eladir
+## Bunlarin hamisi eladir
