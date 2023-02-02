@@ -13,13 +13,16 @@ $uzun: 60px;
 #header {
     width: $genis;
     height: 100vh;
+
     background: {
-        image: url(./img/Anonymous4.jpg);
+        image: url(./img/Anonymous2.jpg);
         size: cover;
         repeat: no-repeat;
-        position: center;
+
     }
+
     text-align: center;
+
 
     .navbar {
         width: $genis;
@@ -37,9 +40,10 @@ $uzun: 60px;
 
             li {
                 margin-right: 20px;
+
                 font: {
                     size: 15+5px;
-                    weight:450+450;
+                    weight: 450+450;
                     style: italic;
                 }
 
@@ -50,5 +54,13 @@ $uzun: 60px;
             }
         }
     }
-}
 
+    h1 {
+        height: 625px - 60px ;
+        color: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-shadow: 15px 15px 15px black;
+    }
+}
